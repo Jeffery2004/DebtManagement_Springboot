@@ -1,0 +1,21 @@
+# Java (Spring Boot)
+Debt_Management_backend/target/
+*.class
+*.log
+*.jar
+*.war
+
+# Node (React)
+Debt_Management_frontend/node_modules/
+Debt_Management_frontend/build/
+
+# IDE
+*.iml
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Environment
+*.env
