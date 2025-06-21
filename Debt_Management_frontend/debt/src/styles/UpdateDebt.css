@@ -1,0 +1,77 @@
+.update-debt-container {
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 180%;
+  padding: 35px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  margin: 50px auto;
+  margin-left:-60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.update-debt-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+.update-debt-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input fields */
+.update-debt-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.update-debt-container input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Button */
+.update-debt-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-debt-container button:hover {
+  background-color: #5a67d8;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .update-debt-container {
+    padding: 25px 20px;
+  }
+
+  .update-debt-container h1 {
+    font-size: 22px;
+  }
+
+  .update-debt-container input,
+  .update-debt-container button {
+    font-size: 15px;
+  }
+}

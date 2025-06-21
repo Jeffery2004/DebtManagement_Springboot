@@ -1,0 +1,166 @@
+/* Page background and font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Main container */
+.home-container {
+  max-width: 100%;
+  width: 90%;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Welcome text */
+h3 {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+}
+
+/* Add Debt button */
+.home-container button a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+
+/* Buttons */
+.add-button,
+.retrieve-button {
+  width: 100%;
+  background-color: #667eea;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover,
+.retrieve-button:hover {
+  background-color: #5a67d8;
+}
+
+/* Debt list */
+.debt-card {
+  background-color: #f5f5f5;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.debt-card li {
+  list-style: none;
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+/* Action buttons */
+.debt-card button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.debt-card button:first-of-type {
+  background-color: #38a169;
+  color: white;
+}
+
+.debt-card button:first-of-type:hover {
+  background-color: #2f855a;
+}
+
+.debt-card button:last-of-type {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.debt-card button:last-of-type:hover {
+  background-color: #c53030;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .home-container {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .debt-card li {
+    font-size: 0.95rem;
+  }
+
+  .debt-card button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .debt-card {
+    padding: 12px 15px;
+  }
+
+  .debt-card li {
+    font-size: 0.9rem;
+  }
+
+  .debt-card button {
+    width: 100%;
+    margin: 8px 0;
+    font-size: 0.85rem;
+    padding: 10px;
+  }
+}

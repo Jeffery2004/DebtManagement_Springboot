@@ -1,0 +1,87 @@
+/* Shared page background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Form container */
+.add-debt-container {
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 90%;
+  padding: 35px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+/* Heading */
+.add-debt-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+.add-debt-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input fields */
+.add-debt-container input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+.add-debt-container input:focus {
+  border-color: #764ba2;
+  outline: none;
+}
+
+/* Button */
+.add-debt-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-debt-container button:hover {
+  background-color: #5a67d8;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .add-debt-container {
+    padding: 25px 20px;
+  }
+
+  .add-debt-container h1 {
+    font-size: 22px;
+  }
+
+  .add-debt-container input,
+  .add-debt-container button {
+    font-size: 15px;
+  }
+}

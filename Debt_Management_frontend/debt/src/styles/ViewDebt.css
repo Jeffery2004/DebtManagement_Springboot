@@ -1,0 +1,20 @@
+h4,p{
+    display:inline-block;
+    margin-top:-10px;
+    margin-bottom:12px;
+}
+p{
+    margin-left:10px;
+}
+.interest-list{
+    margin-top:-4px;
+}
+span{
+    margin-bottom:5px;
+}
+h1{
+    margin-top:-15px;
+}
+.interest{
+    margin-right:90px;
+}
